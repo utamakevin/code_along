@@ -1,0 +1,35 @@
+/* box model
+
+every element is a box
+border, padding, margin, content, color, background color
+*/
+
+* {
+    border: 1px solid red;
+}
+
+
+/* 
+unit - px (pixel), fr (fraction), pt (point), em, % (percentage)
+
+relative vs absolute
+
+absolute - px, pt
+
+relative - fr, %
+
+
+*/
+
+section {
+    display: grid;
+    grid-template-columns: ;
+}
+
+
+.box {
+    /* border: 5px solid black; */
+
+    /* display mode */
+    display: inline;
+}

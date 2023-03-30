@@ -1,0 +1,30 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    background-color: mistyrose;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+@media (min-width: 7000px) {
+
+    body {
+        background-color: plum;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        background-color: linen;
+    }
+}

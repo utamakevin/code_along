@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Stinky Notes</title>
+</head>
+<body>
+    <section class="add-note">
+        <h1>add note</h1>
+        <form action="">
+            <textarea placeholder="enter a note..."></textarea>
+            <button>add note</button>
+        </form>
+    </section>
+    <section class="note-list">
+        <h1>note list</h1>
+
+    </section>
+    <section class="simpsons-quote">
+        <h1>quote</h1>
+    </section>
+
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+    <script type="module" src="/notes_api.js"></script>
+    <script type="module" src="/components/add_note.js"></script>
+    <script type="module" src="/components/note_list.js"></script>
+    <script type="module" src="/components/simpsons_quote.js"></script>
+
+    <script src="client.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+https://gist.github.com/epoch/96d50225f33dff683b6c003b61bf9e1b
+
+
+327  mkdir House
+  328  touch House/Dorothy House/Toto
+  329  ls
+  330  tree
+  331  mkdir Oz
+  332  touch Oz/good_witch_of_the_north Oz/wicked_witch_of_the_east Oz/good_witch_of_the_south Oz/wicked_witch_of_the_west
+  333  tree
+  334  rm Oz/wicked_witch_of_the_east
+  335  mv House/Dorothy Oz
+  336  touch Scarecrow 'Tin Man' 'Cowardly Lion'
+  337  tree
+  338  mkdir emerald-city
+  339  mv Scarecrow 'Tin Man' 'Cowardly Lion' emerald-city

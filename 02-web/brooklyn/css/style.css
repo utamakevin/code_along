@@ -1,0 +1,27 @@
+/* divititis  */
+/* 
+
+images by default are inline block
+
+images will just use whatever size the image is
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.media img {
+    width: 100%;
+    border: 5px solid grey;
+}

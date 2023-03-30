@@ -1,0 +1,32 @@
+/* css selectors */
+/* element select */
+
+h1 {
+    color : red;
+}
+
+p {
+    color: blue;
+}
+
+/* id selector */
+
+#special {
+    color: pink;
+}
+
+/* class selector */
+
+.fav-fruit {
+    color: gold;
+}
+
+/* descendant selector */
+section div {
+    color: pink;
+}
+
+/* direct child selector */
+section > div {
+    color: mistyrose;
+}

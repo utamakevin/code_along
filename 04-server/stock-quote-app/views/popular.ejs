@@ -1,0 +1,10 @@
+<body>
+    <h2>Popular Stocks</h2>
+
+    <% for(ticker of tickers) { %>
+
+       <p><a href="/stock?ticker=<%= ticker.ticker %>"><%= ticker.name %></a></p>
+
+    <% } %>
+
+</body>

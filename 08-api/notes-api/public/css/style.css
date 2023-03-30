@@ -1,0 +1,35 @@
+.add-note {
+    border: 5px solid blue;
+}
+
+.note-list {
+    border: 5px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content {
+    height: 200px;
+    width: 200px;
+}
+
+
+.simpsons-quote {
+    border: 5px solid red;
+
+}
+
+/* when .note class is by itself, textarea should not be displayed */
+.note textarea {
+    display: none;
+}
+
+/* when .note class has .edit class, .content should not be displayed */
+.note.edit .content { 
+    display: none;
+}
+
+/* when .note class has .edit class, textarea should be displayed */
+.note.edit textarea {
+    display: block;
+}

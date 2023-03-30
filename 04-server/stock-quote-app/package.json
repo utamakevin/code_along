@@ -1,0 +1,23 @@
+{
+  "name": "stock-quote-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "fs": "^0.0.1-security",
+    "yahoo-finance": "^0.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

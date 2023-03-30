@@ -1,0 +1,18 @@
+body {
+    background-color: mistyrose;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 20px
+}
+
+.info {
+    display: none;
+}
