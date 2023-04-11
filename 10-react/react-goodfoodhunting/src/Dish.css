@@ -1,0 +1,42 @@
+.card * {
+    border: 1px solid red;
+}
+
+.card header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .image-wrapper img {
+    width: 100%;
+}
+
+.card .image-wrapper {
+    position: relative;
+}
+
+.card .poop {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2.3rem;
+    transition: all 0.3s linear;
+    opacity: 0;
+    filter: grayscale(1);
+    cursor: pointer;
+
+}
+
+.card .poop.selected {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.card .image-wrapper:hover .poop {
+    opacity: 1;
+}
