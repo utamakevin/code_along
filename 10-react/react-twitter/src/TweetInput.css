@@ -1,0 +1,12 @@
+.tweet-input textarea {
+    width: 100%;
+}
+
+.tweet-input footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-input .warning {
+    color: red;
+}

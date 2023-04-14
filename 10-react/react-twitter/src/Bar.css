@@ -1,0 +1,6 @@
+.tweet-input .bar {
+    height: 20px;
+    background-color: #1d9bf0;
+    width: 70%;
+    transition: all 0.3s linear;
+}
