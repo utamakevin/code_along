@@ -1,0 +1,12 @@
+{
+    "owners": [
+      { "owner": "Caltex", "total": "1502" },
+      { "owner": "BP", "total": "1230" },
+      { "owner": "Shell", "total": "838" },
+      { "owner": "7-Eleven Pty Ltd", "total": "742" },
+      { "owner": "Independent Fuel Supplies", "total": "386" },
+      { "owner": "United", "total": "216" },
+      { "owner": "Ampol", "total": "86" }
+    ],
+    "total_owners": "5244"
+  }
