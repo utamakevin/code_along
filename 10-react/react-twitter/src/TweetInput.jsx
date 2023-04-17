@@ -2,9 +2,8 @@ import { useState } from 'react'
 import './TweetInput.css'
 import Bar from './Bar'
 
-export default function TweetInput({ onSubmit }) {
+export default function TweetInput({ onSubmit, setPoopCount }) {
   const [tweet, setTweet] = useState('')
-  // const [tweets, setTweets] = useState(['one', 'two', 'three'])
 
   const handleChange = e => {
   setTweet(e.target.value)
@@ -16,6 +15,8 @@ export default function TweetInput({ onSubmit }) {
     onSubmit(prevTweets => [tweet, ...prevTweets])
     // e.target.reset() // can be done, but this is DOM. use react instead.
     setTweet('')
+    let randomNumber = Math.floor(Math.random() * 500)
+    setPoopCount(randomNumber)
   }
 
   const charsLeft = 140 - tweet.length
