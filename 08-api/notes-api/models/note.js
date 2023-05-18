@@ -29,8 +29,9 @@ class Note {
     }
 
     static update(id, newNote) {
-        let sql = `update notes set content = $2, content_html = $3 where id = $1;`
+        let sql = `update notes set content = $2, content_html = $3 where id = $1 returning *;`
         return db.query(sql, [id, newNote.content, md.render(newNote.content)])
+            .then(res => res.rows[0])
     }
 
     static destroy(id) {

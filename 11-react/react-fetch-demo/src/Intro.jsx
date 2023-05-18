@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 export default function Intro() {
   const [colors, setColors] = useState([])
-    const [counter, setCounter] = useState(0)
+  const [counter, setCounter] = useState(0)
   
     
     useEffect(() => {

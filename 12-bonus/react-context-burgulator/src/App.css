@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+/* .ingredient {
+  border: 2px solid black;
+} */
+
+.cheese {
+  background-color: gold;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.bun {
+  background-color: brown;
+}

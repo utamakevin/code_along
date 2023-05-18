@@ -1,0 +1,101 @@
+
+  
+  .note {
+    background: linear-gradient(to bottom left, transparent 50%, #658e15 50%),
+      linear-gradient(to right, #97c02f 99.9%, transparent 99.9%),
+      linear-gradient(to right, #97c02f 99.9%, transparent 99.9%);
+    background-size: 16px 16px, 100% 100%, 100% 100%;
+    background-position: 100% 0%, -16px 0%, 100% 16px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+    padding: 10px;
+  }
+  
+  /* const colors = ['bcdfc9', 'f6c2d9' ,'fff69b' ,'a1c8e9', 'e4dae2'] */
+  
+  .note.e4dae2 {
+    background: linear-gradient(to bottom left, transparent 50%, #95b2a0 50%),
+      linear-gradient(to right, #e4dae2 99.9%, transparent 99.9%),
+      linear-gradient(to right, #e4dae2 99.9%, transparent 99.9%);
+    background-size: 16px 16px, 100% 100%, 100% 100%;
+    background-position: 100% 0%, -16px 0%, 100% 16px;
+    background-repeat: no-repeat;
+  }
+  
+  .note.f6c2d9 {
+    background: linear-gradient(to bottom left, transparent 50%, #95b2a0 50%),
+      linear-gradient(to right, #f6c2d9 99.9%, transparent 99.9%),
+      linear-gradient(to right, #f6c2d9 99.9%, transparent 99.9%);
+    background-size: 16px 16px, 100% 100%, 100% 100%;
+    background-position: 100% 0%, -16px 0%, 100% 16px;
+    background-repeat: no-repeat;
+  }
+  
+  .note.bcdfc9 {
+    background: linear-gradient(to bottom left, transparent 50%, #95b2a0 50%),
+      linear-gradient(to right, #bcdfc9 99.9%, transparent 99.9%),
+      linear-gradient(to right, #bcdfc9 99.9%, transparent 99.9%);
+    background-size: 16px 16px, 100% 100%, 100% 100%;
+    background-position: 100% 0%, -16px 0%, 100% 16px;
+    background-repeat: no-repeat;
+  }
+  
+  .note.fff69b {
+    background: linear-gradient(to bottom left, transparent 50%, #95b2a0 50%),
+      linear-gradient(to right, #fff69b 99.9%, transparent 99.9%),
+      linear-gradient(to right, #fff69b 99.9%, transparent 99.9%);
+    background-size: 16px 16px, 100% 100%, 100% 100%;
+    background-position: 100% 0%, -16px 0%, 100% 16px;
+    background-repeat: no-repeat;
+  }
+  
+  .note.a1c8e9 {
+    background: linear-gradient(to bottom left, transparent 50%, #95b2a0 50%),
+      linear-gradient(to right, #a1c8e9 99.9%, transparent 99.9%),
+      linear-gradient(to right, #a1c8e9 99.9%, transparent 99.9%);
+    background-size: 16px 16px, 100% 100%, 100% 100%;
+    background-position: 100% 0%, -16px 0%, 100% 16px;
+    background-repeat: no-repeat;
+  }
+  
+  .note .content > h1:first-child,
+  .note .content > h2:first-child,
+  .note .content > h3:first-child,
+  .note .content > h4:first-child,
+  .note .content > p:first-child {
+    margin-top: 0;
+  }
+  
+  .note .content {
+    /* overflow: scroll; */
+  }
+  
+  .note textarea {
+    background-color: inherit;
+    height: 6rem;
+    resize: none;
+    width: 100%;
+    outline: none;
+    border: 1px dashed green;
+    display: block;
+  }
+  
+  .note-wrapper {
+    position: relative;
+  }
+  
+  .note-wrapper footer {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .note-wrapper .delete-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }

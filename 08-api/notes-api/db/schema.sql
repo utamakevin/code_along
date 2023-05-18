@@ -9,6 +9,13 @@ CREATE TABLE notes (
 
 -- ALTER TABLE notes ADD hex_colour TEXT NOT NULL;
 
--- INSERT INTO notes (contentq) VALUES ('note one');
+-- INSERT INTO notes (content) VALUES ('note one');
 -- INSERT INTO notes (content) VALUES ('note two');
 -- INSERT INTO notes (content) VALUES ('note three');
+
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    email TEXT UNIQUE NOT NULL,
+    password_digest TEXT NOT NULL
+);
